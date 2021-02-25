@@ -147,7 +147,7 @@ namespace WachtrijApp
 
             if (StatusNr == "5")
             {
-                return "Onderhoud";
+                return "In onderhoud";
             }
 
             return "";
