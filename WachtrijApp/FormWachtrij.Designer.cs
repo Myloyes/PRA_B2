@@ -43,19 +43,29 @@
             // 
             this.labelTitel.AutoSize = true;
             this.labelTitel.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTitel.Location = new System.Drawing.Point(26, 18);
+            this.labelTitel.Location = new System.Drawing.Point(39, 28);
+            this.labelTitel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTitel.Name = "labelTitel";
+<<<<<<< Updated upstream
             this.labelTitel.Size = new System.Drawing.Size(206, 36);
+=======
+            this.labelTitel.Size = new System.Drawing.Size(227, 48);
+>>>>>>> Stashed changes
             this.labelTitel.TabIndex = 0;
-            this.labelTitel.Text = "Bugs of Horror";
+            this.labelTitel.Text = "Debug Hero";
             // 
             // labelWachttijd
             // 
             this.labelWachttijd.AutoSize = true;
             this.labelWachttijd.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelWachttijd.Location = new System.Drawing.Point(27, 149);
+            this.labelWachttijd.Location = new System.Drawing.Point(40, 229);
+            this.labelWachttijd.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelWachttijd.Name = "labelWachttijd";
+<<<<<<< Updated upstream
             this.labelWachttijd.Size = new System.Drawing.Size(111, 28);
+=======
+            this.labelWachttijd.Size = new System.Drawing.Size(151, 37);
+>>>>>>> Stashed changes
             this.labelWachttijd.TabIndex = 4;
             this.labelWachttijd.Text = "Wachttijd";
             // 
@@ -63,9 +73,14 @@
             // 
             this.labelWachttijdMelding.AutoSize = true;
             this.labelWachttijdMelding.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelWachttijdMelding.Location = new System.Drawing.Point(29, 174);
+            this.labelWachttijdMelding.Location = new System.Drawing.Point(44, 268);
+            this.labelWachttijdMelding.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelWachttijdMelding.Name = "labelWachttijdMelding";
+<<<<<<< Updated upstream
             this.labelWachttijdMelding.Size = new System.Drawing.Size(82, 21);
+=======
+            this.labelWachttijdMelding.Size = new System.Drawing.Size(107, 28);
+>>>>>>> Stashed changes
             this.labelWachttijdMelding.TabIndex = 5;
             this.labelWachttijdMelding.Text = "0 minuten";
             // 
@@ -73,9 +88,10 @@
             // 
             this.AttractieLogo.ErrorImage = null;
             this.AttractieLogo.Image = ((System.Drawing.Image)(resources.GetObject("AttractieLogo.Image")));
-            this.AttractieLogo.Location = new System.Drawing.Point(168, 87);
+            this.AttractieLogo.Location = new System.Drawing.Point(252, 134);
+            this.AttractieLogo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.AttractieLogo.Name = "AttractieLogo";
-            this.AttractieLogo.Size = new System.Drawing.Size(110, 141);
+            this.AttractieLogo.Size = new System.Drawing.Size(165, 217);
             this.AttractieLogo.TabIndex = 6;
             this.AttractieLogo.TabStop = false;
             this.AttractieLogo.Click += new System.EventHandler(this.AttractieLogo_Click);
@@ -84,9 +100,14 @@
             // 
             this.labelKar2.AutoSize = true;
             this.labelKar2.Font = new System.Drawing.Font("Calibri", 11.25F);
-            this.labelKar2.Location = new System.Drawing.Point(29, 87);
+            this.labelKar2.Location = new System.Drawing.Point(44, 134);
+            this.labelKar2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelKar2.Name = "labelKar2";
+<<<<<<< Updated upstream
             this.labelKar2.Size = new System.Drawing.Size(67, 21);
+=======
+            this.labelKar2.Size = new System.Drawing.Size(89, 28);
+>>>>>>> Stashed changes
             this.labelKar2.TabIndex = 8;
             this.labelKar2.Text = "Kar 2: ...";
             // 
@@ -94,9 +115,14 @@
             // 
             this.labelKar1.AutoSize = true;
             this.labelKar1.Font = new System.Drawing.Font("Calibri", 11.25F);
-            this.labelKar1.Location = new System.Drawing.Point(29, 68);
+            this.labelKar1.Location = new System.Drawing.Point(44, 105);
+            this.labelKar1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelKar1.Name = "labelKar1";
+<<<<<<< Updated upstream
             this.labelKar1.Size = new System.Drawing.Size(67, 21);
+=======
+            this.labelKar1.Size = new System.Drawing.Size(89, 28);
+>>>>>>> Stashed changes
             this.labelKar1.TabIndex = 9;
             this.labelKar1.Text = "Kar 1: ...";
             // 
@@ -112,11 +138,16 @@
             // 
             // FormWachtrij
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< Updated upstream
             this.BackColor = System.Drawing.Color.Peru;
             this.ClientSize = new System.Drawing.Size(279, 227);
             this.Controls.Add(this.labelKar3);
+=======
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(418, 349);
+>>>>>>> Stashed changes
             this.Controls.Add(this.labelKar1);
             this.Controls.Add(this.labelKar2);
             this.Controls.Add(this.AttractieLogo);
@@ -124,8 +155,9 @@
             this.Controls.Add(this.labelWachttijd);
             this.Controls.Add(this.labelTitel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormWachtrij";
-            this.Text = "Bugs of Horror";
+            this.Text = "Debug Hero";
             ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
