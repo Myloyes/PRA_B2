@@ -46,11 +46,7 @@
             this.labelTitel.Location = new System.Drawing.Point(39, 28);
             this.labelTitel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTitel.Name = "labelTitel";
-<<<<<<< Updated upstream
-            this.labelTitel.Size = new System.Drawing.Size(206, 36);
-=======
             this.labelTitel.Size = new System.Drawing.Size(227, 48);
->>>>>>> Stashed changes
             this.labelTitel.TabIndex = 0;
             this.labelTitel.Text = "Debug Hero";
             // 
@@ -61,11 +57,7 @@
             this.labelWachttijd.Location = new System.Drawing.Point(40, 229);
             this.labelWachttijd.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelWachttijd.Name = "labelWachttijd";
-<<<<<<< Updated upstream
-            this.labelWachttijd.Size = new System.Drawing.Size(111, 28);
-=======
             this.labelWachttijd.Size = new System.Drawing.Size(151, 37);
->>>>>>> Stashed changes
             this.labelWachttijd.TabIndex = 4;
             this.labelWachttijd.Text = "Wachttijd";
             // 
@@ -76,11 +68,7 @@
             this.labelWachttijdMelding.Location = new System.Drawing.Point(44, 268);
             this.labelWachttijdMelding.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelWachttijdMelding.Name = "labelWachttijdMelding";
-<<<<<<< Updated upstream
-            this.labelWachttijdMelding.Size = new System.Drawing.Size(82, 21);
-=======
             this.labelWachttijdMelding.Size = new System.Drawing.Size(107, 28);
->>>>>>> Stashed changes
             this.labelWachttijdMelding.TabIndex = 5;
             this.labelWachttijdMelding.Text = "0 minuten";
             // 
@@ -88,7 +76,7 @@
             // 
             this.AttractieLogo.ErrorImage = null;
             this.AttractieLogo.Image = ((System.Drawing.Image)(resources.GetObject("AttractieLogo.Image")));
-            this.AttractieLogo.Location = new System.Drawing.Point(252, 134);
+            this.AttractieLogo.Location = new System.Drawing.Point(237, 105);
             this.AttractieLogo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.AttractieLogo.Name = "AttractieLogo";
             this.AttractieLogo.Size = new System.Drawing.Size(165, 217);
@@ -103,11 +91,7 @@
             this.labelKar2.Location = new System.Drawing.Point(44, 134);
             this.labelKar2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelKar2.Name = "labelKar2";
-<<<<<<< Updated upstream
-            this.labelKar2.Size = new System.Drawing.Size(67, 21);
-=======
             this.labelKar2.Size = new System.Drawing.Size(89, 28);
->>>>>>> Stashed changes
             this.labelKar2.TabIndex = 8;
             this.labelKar2.Text = "Kar 2: ...";
             // 
@@ -118,11 +102,7 @@
             this.labelKar1.Location = new System.Drawing.Point(44, 105);
             this.labelKar1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelKar1.Name = "labelKar1";
-<<<<<<< Updated upstream
-            this.labelKar1.Size = new System.Drawing.Size(67, 21);
-=======
             this.labelKar1.Size = new System.Drawing.Size(89, 28);
->>>>>>> Stashed changes
             this.labelKar1.TabIndex = 9;
             this.labelKar1.Text = "Kar 1: ...";
             // 
@@ -130,9 +110,9 @@
             // 
             this.labelKar3.AutoSize = true;
             this.labelKar3.Font = new System.Drawing.Font("Calibri", 11.25F);
-            this.labelKar3.Location = new System.Drawing.Point(29, 108);
+            this.labelKar3.Location = new System.Drawing.Point(44, 162);
             this.labelKar3.Name = "labelKar3";
-            this.labelKar3.Size = new System.Drawing.Size(67, 21);
+            this.labelKar3.Size = new System.Drawing.Size(89, 28);
             this.labelKar3.TabIndex = 10;
             this.labelKar3.Text = "Kar 3: ...";
             // 
@@ -140,14 +120,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< Updated upstream
-            this.BackColor = System.Drawing.Color.Peru;
-            this.ClientSize = new System.Drawing.Size(279, 227);
-            this.Controls.Add(this.labelKar3);
-=======
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(418, 349);
->>>>>>> Stashed changes
+            this.ClientSize = new System.Drawing.Size(415, 330);
+            this.Controls.Add(this.labelKar3);
             this.Controls.Add(this.labelKar1);
             this.Controls.Add(this.labelKar2);
             this.Controls.Add(this.AttractieLogo);
