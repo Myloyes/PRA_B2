@@ -35,6 +35,7 @@
             this.AttractieLogo = new System.Windows.Forms.PictureBox();
             this.labelKar2 = new System.Windows.Forms.Label();
             this.labelKar1 = new System.Windows.Forms.Label();
+            this.labelKar3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,7 +45,7 @@
             this.labelTitel.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitel.Location = new System.Drawing.Point(26, 18);
             this.labelTitel.Name = "labelTitel";
-            this.labelTitel.Size = new System.Drawing.Size(186, 32);
+            this.labelTitel.Size = new System.Drawing.Size(206, 36);
             this.labelTitel.TabIndex = 0;
             this.labelTitel.Text = "Bugs of Horror";
             // 
@@ -54,7 +55,7 @@
             this.labelWachttijd.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelWachttijd.Location = new System.Drawing.Point(27, 149);
             this.labelWachttijd.Name = "labelWachttijd";
-            this.labelWachttijd.Size = new System.Drawing.Size(99, 25);
+            this.labelWachttijd.Size = new System.Drawing.Size(111, 28);
             this.labelWachttijd.TabIndex = 4;
             this.labelWachttijd.Text = "Wachttijd";
             // 
@@ -64,7 +65,7 @@
             this.labelWachttijdMelding.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelWachttijdMelding.Location = new System.Drawing.Point(29, 174);
             this.labelWachttijdMelding.Name = "labelWachttijdMelding";
-            this.labelWachttijdMelding.Size = new System.Drawing.Size(71, 18);
+            this.labelWachttijdMelding.Size = new System.Drawing.Size(82, 21);
             this.labelWachttijdMelding.TabIndex = 5;
             this.labelWachttijdMelding.Text = "0 minuten";
             // 
@@ -85,7 +86,7 @@
             this.labelKar2.Font = new System.Drawing.Font("Calibri", 11.25F);
             this.labelKar2.Location = new System.Drawing.Point(29, 87);
             this.labelKar2.Name = "labelKar2";
-            this.labelKar2.Size = new System.Drawing.Size(57, 18);
+            this.labelKar2.Size = new System.Drawing.Size(67, 21);
             this.labelKar2.TabIndex = 8;
             this.labelKar2.Text = "Kar 2: ...";
             // 
@@ -95,9 +96,19 @@
             this.labelKar1.Font = new System.Drawing.Font("Calibri", 11.25F);
             this.labelKar1.Location = new System.Drawing.Point(29, 68);
             this.labelKar1.Name = "labelKar1";
-            this.labelKar1.Size = new System.Drawing.Size(57, 18);
+            this.labelKar1.Size = new System.Drawing.Size(67, 21);
             this.labelKar1.TabIndex = 9;
             this.labelKar1.Text = "Kar 1: ...";
+            // 
+            // labelKar3
+            // 
+            this.labelKar3.AutoSize = true;
+            this.labelKar3.Font = new System.Drawing.Font("Calibri", 11.25F);
+            this.labelKar3.Location = new System.Drawing.Point(29, 108);
+            this.labelKar3.Name = "labelKar3";
+            this.labelKar3.Size = new System.Drawing.Size(67, 21);
+            this.labelKar3.TabIndex = 10;
+            this.labelKar3.Text = "Kar 3: ...";
             // 
             // FormWachtrij
             // 
@@ -105,6 +116,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Peru;
             this.ClientSize = new System.Drawing.Size(279, 227);
+            this.Controls.Add(this.labelKar3);
             this.Controls.Add(this.labelKar1);
             this.Controls.Add(this.labelKar2);
             this.Controls.Add(this.AttractieLogo);
@@ -128,6 +140,7 @@
         private System.Windows.Forms.PictureBox AttractieLogo;
         private System.Windows.Forms.Label labelKar2;
         private System.Windows.Forms.Label labelKar1;
+        private System.Windows.Forms.Label labelKar3;
     }
 }
 
